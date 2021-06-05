@@ -1,0 +1,124 @@
+body {
+  overflow-x: hidden; }
+
+img:hover{
+  opacity:0.5;	
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #fff 3px solid; }
+  
+.carousel-item {
+  height: 450px;
+  }
+
+h1.display-3, p.lead, .carousel-control-prev-icon{
+  background-color:rgba(51,102,51,0.6);
+  border-radius:10px;
+  padding:0 10px;
+}
+
+.carrusel-imaxe-1 {
+  background: url("../img/imaxe1.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  }
+
+.carrusel-imaxe-2 {
+  background: url("../img/imaxe2.jpg");
+  background-attachment:fixed;
+  background-size: cover; }
+
+.carrusel-imaxe-3 {
+  background: url("../img/imaxe3.jpg");
+  background-attachment:fixed;
+  background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+#tien21 {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/tien21.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.capa-verde {
+  position: absolute;
+  background-color: rgba(51,102,51,0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/tenda.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#pazos{
+  box-shadow: 4px 6px 7px 0px rgba(52,54,66,0.5);;
+}
+
+#encabezado {
+  position: relative;
+  height: 200px;
+  background: url("../img/imaxe1.jpg");
+  background-position: -100px -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#nos img {
+  margin-top: -50px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background:#3F33AC }
+
+@media (max-width: 500px){
+  #mapa{
+	width:400px;
+	height:300px;  
+  }
+}
+@media (min-width: 501px) AND (max-width: 750px){
+  #mapa{
+	width:450px;
+	height:350px;  
+  }
+}
+@media (min-width: 751px) AND (max-width: 999px){
+  #mapa{
+	width:550px;
+	height:400px;  
+  }
+}
+@media (min-width: 1000px){
+  #mapa{
+	width:750px;
+	height:600px;  
+  }
+}
